@@ -15,12 +15,12 @@ body, html {
 }
 
 .poster {
-  background-image: url('/images/poster.jpg');
-  height: 60%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  display:flex;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .bg-red{
   background-color: #8b1513;
