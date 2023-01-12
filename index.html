@@ -7,42 +7,78 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css">
       </head>
     <body>
-      <nav class="navbar navbar-expand-lg navbar-light .text-white">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand text-white" href="#">Don't Think Twice</a>
+          <a class="navbar-brand" href="#">Don't Think Twice</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Tickets</a>
+                <a class="nav-link" href="https://whaletheatre.ticketsolve.com/ticketbooth/shows/873631966">Tickets</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Gallery</a>
+                <a class="nav-link" href="#">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Actor Biographies</a>
+                <a class="nav-link" href="#meet-the-actors">Actor Biographies</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">About Us</a>
+                <a class="nav-link" href="#">About Us</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <img src="/images/poster.jpg" class="poster">
-        <button type="button" class="btn btn-danger">Danger</button>
+      <div class="container-fluid poster">
+        <a class="btn btn-lg poster-button" type="button" href="https://whaletheatre.ticketsolve.com/ticketbooth/shows/873631966">Click Here to Buy Tickets!</a>
       </div>
-      <div class="p-5 mb-4 bg-red rounded-3">
-        <div class="container-fluid">
-          <h1 class="display-5 fw-bold">God of Carnage</h1>
-          <p class="col-md-8 fs-4">The Whale Theatre, Greystones</p>
-          <p class="col-md-8 fs-4">10th & 11th February 2023 8pm</p>
-          <button class="btn btn-primary btn-lg" type="button">Buy Tickets</button>
+      <div class="container-fluid">
+        <div class="jumbotron">
+          <h1 class="display-4 fw-bold">God of Carnage</h1>
+          <p class="lead fs-4">by Yasmina Reza, translated by Christopher Hampton</p>
+          <p class="p">The Whale Theatre, Greystones
+          <p class="p">10th & 11th February 2023, 8pm</p>
+          <hr class="my-4">
+          <p>What happens when two sets of parents meet up to deal with the unruly behaviour of their children? A calm and rational debate between grown-ups about the need to teach kids how to behave properly? Or a hysterical night of name-calling, tantrums and tears before bedtime?</p>
+          <a class="btn btn-primary" type="button" href="https://whaletheatre.ticketsolve.com/ticketbooth/shows/873631966">Buy Tickets</a>
+          <hr>
+          <p class="sub">This amateur production of “God of Carnage” is presented by arrangement with Concord Theatricals Ltd. on behalf of Samuel French Ltd. www.concordtheatricals.co.uk</p>
+          
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+      </div>
+      <div class="container meet-the-actors" id="meet-the-actors">
+        <div class="text-center display-4">Meet the Actors</div>
+        <div class="row">
+          <div class="col-6">
+            <img src="images/john.jpg" class="img-thumbnail">
+            <p><strong>John</strong> is playing the role of Michel Vallon, husband of Veroniqué and father of Bruno who has been involved in an altercation with Ferdinand Reille.
+
+              We asked John to describe his character in three words: uncouth, sarcastic, primitive</p>
+          </div>
+          <div class="col-6">
+            <img src="images/Mary.jpg" class="img-thumbnail">
+            <p><strong>Mary</strong> is playing the role of Veroniqué Vallon, wife of Michel and mother of Bruno who has been involved in an altercation with Ferdinand Reille.
+
+              We asked Mary to describe her character in three words: Moral crusader, patronising, idealist</p>
+          </div>
+          <div class="col-6">
+            <img src="images/Eoghan.jpg" class="img-thumbnail">
+            <p><strong>Eoghan</strong> is playing the role of Alain Reille, husband of Annette and father of Ferdinand who has been involved in an altercation with Bruno Vallon.
+
+              We asked Eoghan to describe his character in three words: Condescending, Aloof, Rude</p>
+          </div>
+          <div class="col-6">
+            <img src="images/Ally.jpg" class="img-thumbnail">
+            <p><strong>Ally</strong> is playing the role of Annette Reille, wife of Alain and mother of Ferdinand who has been involved in an altercation with Bruno Vallon.
+
+              We asked Ally to describe her character in three words: Anxious, suppressed, meek</p>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     </body>
 </html>        
     
