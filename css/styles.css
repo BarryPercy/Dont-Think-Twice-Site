@@ -58,10 +58,6 @@ body, html {
   margin-top: 5vw;
 }
 
-.meet-the-actors > div > .row > div > img{
-  height:5%;
-}
-
 @media only screen and (max-width: 1400px) {
   .poster-button{
     left:5%;
